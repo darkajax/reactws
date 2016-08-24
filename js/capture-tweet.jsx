@@ -28,9 +28,9 @@ export default class CaptureTweet extends React.Component {
 
   render() {
     return (
-      <form>
-        <textarea name="text" placeholder="What's happening?" value={this.state.text} onChange={this._change} />
-        <input type="button" value="Send" onClick={this._send} disabled={this._isTextEmpty()}></input>
+      <form className="capture-tweet">
+        <textarea className="form-control" name="text" placeholder="What's happening?" value={this.state.text} onChange={this._change} />
+        <input className="btn btn-primary pull-right" type="button" value="Send" onClick={this._send} disabled={this._isTextEmpty()}></input>
       </form>
     );
   }

@@ -5,5 +5,5 @@ import TweetList from './tweet-list.jsx'
 
 ReactDOM.render(
   <TweetList />,
-  document.getElementById("content")
+  document.getElementById("main")
 );

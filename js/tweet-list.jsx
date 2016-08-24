@@ -23,9 +23,11 @@ export default class TweetList extends React.Component {
     return (
       <div>
         <CaptureTweet onSendTweet={this._sendTweet}/>
-        {this.state.tweets.map(tweet =>
-          <Tweet key={tweet.key} text={tweet.text} createdAt={tweet.createdAt}/>
-        )}
+        <div className="tweet-list">
+          {this.state.tweets.map(tweet =>
+            <Tweet key={tweet.key} text={tweet.text} createdAt={tweet.createdAt}/>
+          )}
+        </div>
       </div>
     );
   }

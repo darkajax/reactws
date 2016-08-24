@@ -1,4 +1,4 @@
-{ 
+{
   "name": "gulp-babel-react-sass",
   "version": "1.0.0",
   "description": "",
@@ -25,6 +25,7 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.6.0",
-    "gulp-livereload": "^3.8.1"
+    "gulp-livereload": "^3.8.1",
+    "bootstrap-sass":"^3.3.7"
   }
 }

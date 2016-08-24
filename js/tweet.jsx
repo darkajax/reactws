@@ -15,9 +15,9 @@ export default class Tweet extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="tweet">
         <p>{this.props.text}</p>
-        <span>{this._formatDate(this.props.createdAt)}</span>
+        <span className="date">on {this._formatDate(this.props.createdAt)}</span>
       </div>
     );
   }

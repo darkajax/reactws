@@ -1,0 +1,31 @@
+
+.masthead {
+  background: #428bca;
+}
+
+.wrapper {
+  padding-bottom: 10px;
+  border-bottom: 1px #EFEFEF solid;
+}
+
+.capture-tweet {
+  input[type=button] {
+    margin-top: 7px;
+  }
+}
+
+.tweet-list {
+  margin-top: 50px;
+}
+
+.tweet {
+  padding-top: 15px;
+  border-top: 1px #EFEFEF solid;
+  font-size: 1.1em;
+  .date {
+    font-size: 0.82em;
+    color: #666;
+  }
+}
+
+@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap"
