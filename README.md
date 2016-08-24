@@ -146,7 +146,7 @@ export default class HelloWorld extends React.Component {
 3. Add a button/link and listen to it, when the button is clicked increment a number and show it in the screen, initial value should be 0
 
 4. Let's get serious: (twitter clone)
-  1. Create an element capture a tweet
-  2. Create an element to show a tweet
+  1. Create an element capture a tweet (text only)
+  2. Create an element to show a tweet (text and date of creation)
   3. create an element to list all captured tweets
   4. make it work.
